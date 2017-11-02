@@ -9,7 +9,7 @@ The default clone will be from the working branch in order to keep things clean.
 ## Git Commands:
 ### Windows: 
 - Download Git for windows [here](https://desktop.github.com/)
-- Sign in and select the IA612-Bro Repository 
+- Sign in and select the IS543-DB Repository 
 - Pull the most current working repository
 - Commit and Push all data when neccessary
 ### Linux:
