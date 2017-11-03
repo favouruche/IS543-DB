@@ -17,3 +17,5 @@ CREATE TABLE Appointments (
 	Apt_Time TIME,
 	Apt_NoShow CHAR(1));
 	
+
+
