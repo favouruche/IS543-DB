@@ -29,7 +29,7 @@ CREATE TABLE Courses (
 	Crs_Name VARCHAR2 (20),
 	Crs_Desc VARCHAR2 (100),
 	Crs_Date DATE,
-	--TIME VARCHAR2(4),
+	Crs_Time TIMESTAMP,
 	Crs_Sem VARCHAR2(10));
 
 -- Tutor Table
@@ -43,7 +43,7 @@ CREATE TABLE Appointments (
 	Tut_ID VARCHAR2(5) CONSTRAINT APT_TUT_FK REFERENCES Tutor(Tut_ID),
 	Stu_ID VARCHAR2(15) CONSTRAINT APT_STU_FK REFERENCES Students(Stu_ID),
 	Apt_Date DATE,
-	--Apt_Time TIME(HH:SS),
+	Apt_Time TIMESTAMP,
 	Apt_NoShow VARCHAR2(1));
 	
 -- Student Requests Table
@@ -58,6 +58,6 @@ CREATE TABLE Avail(
 	Avail_ID VARCHAR2(5) CONSTRAINT avail_pk PRIMARY KEY,
 	Tut_ID VARCHAR2(5) CONSTRAINT AVAIL_TUT_FK REFERENCES Tutor(Tut_ID),
 	Avail_Date DATE,
-	--Avail_Time  TIME,
+	Avail_Time TIMESTAMP,
 	Crs_ID VARCHAR2(4) CONSTRAINT AVAIL_CRS_FK REFERENCES Courses(Crs_ID));
 	
