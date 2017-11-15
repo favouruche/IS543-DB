@@ -1,0 +1,5 @@
+ Insert INTO Student_Requests(Req_ID, Stu_ID, Course_ID, Comments) VALUES ('R001', 'S001', 'C001', 'Hello');
+ Insert INTO Student_Requests(Req_ID, Stu_ID, Course_ID, Comments) VALUES ('R002', 'S002', 'C002', 'My');
+ Insert INTO Student_Requests(Req_ID, Stu_ID, Course_ID, Comments) VALUES ('R003', 'S003', 'C003',  'Name');
+ Insert INTO Student_Requests(Req_ID, Stu_ID, Course_ID, Comments) VALUES ('R004', 'S004', 'C004', 'Is');
+ Insert INTO Student_Requests(Req_ID, Stu_ID, Course_ID, Comments) VALUES ('R005', 'S005', 'C005', 'Rick N Morty');
